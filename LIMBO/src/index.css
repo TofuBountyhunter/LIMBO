@@ -8,7 +8,8 @@
     } */
 /* //////////////////-scroll behaviour-//////////////////// */
     html{
-        scroll-behavior: smooth;
+        scroll-behavior:smooth;
+        scroll-snap-type: y mandatory;
     }
 /* ///////////////////////////////////// */
   /* /////////custom scrollbar in css///////////// */  
@@ -42,3 +43,12 @@
     -webkit-text-fill-color: white !important;
 }
 /* /////////////////////////////////-autofill input to transparent code-///////////////// */
+
+/* /////////////--for Snap Scrolling--///////////////// */
+.section{
+  scroll-snap-align: start;
+}
+
+
+
+/* ///////////////////////////////-project_css-///////////////////////////////////////////// */
