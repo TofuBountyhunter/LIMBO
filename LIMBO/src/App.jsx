@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import {Intro,CustomButton} from './components'
+import {Intro,CustomButton,Login,Form} from './components'
 function App() {
 
   return (
     <>
-      <Intro/>            
+      {/* <Intro/>             */}
+      <Form/>
     </>
   )
 }

@@ -38,9 +38,11 @@
 .form_textfield:-webkit-autofill,
 .form_textfield:-webkit-autofill:hover,
 .form_textfield:-webkit-autofill:focus,
-.form_textfield:-webkit-autofill:active{
-    transition:  background-color 5000s ease-in-out 0s;
-    -webkit-text-fill-color: white !important;
+.form_textfield:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s !important;
+  -webkit-text-fill-color: white !important;
+
+  /* ///-you need to add form_textfield in the className-/// */
 }
 /* /////////////////////////////////-autofill input to transparent code-///////////////// */
 
