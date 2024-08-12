@@ -4,6 +4,7 @@ import Register from './Register'
 import {Outlet} from 'react-router-dom'
 
 const Form = () => {
+    
     return (
         <>
             <div className='bg-gradient-to-r from-slate-900 to-slate-800 w-full h-screen'>
@@ -14,8 +15,8 @@ const Form = () => {
                 </div>
                 <div className='flex justify-center items-center w-full h-screen'>
                     {/* <Login></Login> */}
-                    {/* <Register></Register> */}
-                    <Outlet></Outlet>     
+                    <Register></Register>
+                    {/* <Outlet></Outlet>      */}
 
                 </div>
             </div>

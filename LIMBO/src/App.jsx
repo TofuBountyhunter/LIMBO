@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import {Intro,CustomButton,Login,Form} from './components'
+import {Intro,CustomButton,Login,Form,MainNavbar} from './components'
 function App() {
 
   return (
     <>
-      {/* <Intro/>             */}
-      <Form/>
+      <MainNavbar></MainNavbar>
+      {/* <Intro/> */}
     </>
   )
 }

@@ -7,5 +7,5 @@ import Login from "./Login";
 import Register from "./Register";
 import Forgetpassword from "./Forgetpassword";
 import Form from "./Form";
-
-export { Intro, CustomButton, Home, Profile, Upload, Login, Register, Forgetpassword, Form}
+import MainNavbar from "./MainNavbar";
+export { Intro, CustomButton, Home, Profile, Upload, Login, Register, Forgetpassword, Form, MainNavbar}
