@@ -8,4 +8,8 @@ import Register from "./Register";
 import Forgetpassword from "./Forgetpassword";
 import Form from "./Form";
 import MainNavbar from "./MainNavbar";
-export { Intro, CustomButton, Home, Profile, Upload, Login, Register, Forgetpassword, Form, MainNavbar}
+import Error from "./Error";
+import Layout from "./Layout";
+import Saved from "./Saved";
+import Created from "./Created";
+export { Intro, CustomButton, Home, Profile, Upload, Login, Register, Forgetpassword, Form, MainNavbar, Error, Layout, Saved, Created}

@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import {Intro,CustomButton,Login,Form,MainNavbar} from './components'
+import {Intro,CustomButton,Login,Form,Home,MainNavbar} from './components'
+import { Outlet } from 'react-router-dom'
+
 function App() {
 
   return (
     <>
-      <MainNavbar></MainNavbar>
-      {/* <Intro/> */}
     </>
   )
 }

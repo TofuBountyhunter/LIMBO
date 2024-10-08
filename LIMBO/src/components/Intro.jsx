@@ -1,5 +1,6 @@
 import React from 'react'
 import CustomButton from './CustomButton'
+import { NavLink } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
@@ -34,7 +35,7 @@ const Intro = () => {
             data-aos-once="false"
             className='hidden md:flex md:justify-end md:items-center '>
             <div className='md:mt-5 md:mx-5'>
-              <CustomButton className="">Log in</CustomButton>
+            <NavLink to='login'><CustomButton className="">Log in</CustomButton></NavLink>
             </div>
           </div>
 
@@ -50,7 +51,7 @@ const Intro = () => {
               <div className='text-2xl sm:text-3xl md:text-4xl text-white font-bold text-wrap mx-10 md:mx-20 md:text-start'>This is the Important Title!</div>
               <div className='text-sm sm:text-xl md:text-2xl text-white text-wrap mx-10 md:mx-20'>nemo perferendis recusandae atque enim dolorum adipisci neque nulla voluptatibus.</div>
               <div className='w-full flex justify-center md:hidden'>
-                <CustomButton className="">Log in</CustomButton>
+              <NavLink to='login'><CustomButton className="">Log in</CustomButton></NavLink>
               </div>
             </div>
           </div>
@@ -94,7 +95,7 @@ const Intro = () => {
                 <div className='text-blue-950 font-bold w-full text-center text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-6xl  text-wrap'>Explore Your Thoughts</div>
                 <div className='text-blue-950 lg:text-xl text-pretty md:text-xl sm:text-lg text-sm'>Lorem ipsum dolor sit amet consectetur  corrupti, enim placeat officia nam error totam facere vitae laudantium rem perspiciatis libero quis expedita dolorum omnis!</div>
                 <div className='flex justify-center items-center w-full'>
-                  <CustomButton className="px-4 text-sm md:px-6 lg:px-8">EXPLORE</CustomButton>
+                <NavLink to='login'><CustomButton className="px-4 text-sm md:px-6 lg:px-8">EXPLORE</CustomButton></NavLink>
                 </div>
               </div>
             </div>
@@ -158,7 +159,7 @@ const Intro = () => {
                 <div className='text-slate-500 font-bold w-full text-center text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-6xl  text-wrap'>Create Your Imaginations</div>
                 <div className='text-slate-500 lg:text-xl text-pretty md:text-xl sm:text-lg text-sm'>Lorem ipsum dolor sit amet consectetur  corrupti, enim placeat officia nam error totam facere vitae laudantium rem perspiciatis libero quis expedita dolorum omnis!</div>
                 <div className='flex justify-center items-center w-full'>
-                  <CustomButton className="px-4 text-sm md:px-6 lg:px-8">EXPLORE</CustomButton>
+                <NavLink to='login'><CustomButton className="px-4 text-sm md:px-6 lg:px-8">EXPLORE</CustomButton></NavLink>
                 </div>
               </div>
             </div>
